@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivabharathi P C - Portfolio</title>
+    <link rel="stylesheet" href="pf.css">
+    <script defer src="pf.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Sivabharathi P C</h1>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <button onclick="downloadResume()">Download Resume</button>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With a fresh engineering degree in hand, I'm on the lookout for opportunities where I can put my skills to work in the field of computer science...</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <img src="https://www.svgrepo.com/show/303654/java-logo.svg" alt="Java">
+            <img src="https://www.svgrepo.com/show/353884/html-5.svg" alt="HTML">
+            <img src="https://www.svgrepo.com/show/353623/css-3.svg" alt="CSS">
+            <img src="https://www.svgrepo.com/show/452202/figma.svg" alt="Figma">
+            <img src="https://www.svgrepo.com/show/373705/js-official.svg" alt="JavaScript">
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Tribute Page</h3>
+            <p>A simple webpage dedicated to a famous personality, built using HTML and CSS.</p>
+            <button onclick="redirectTo('https://sivabharathipc.github.io/Tribute-page/')">View Project</button>
+        </div>
+        <div class="project">
+            <h3>Product Landing Page</h3>
+            <p>A responsive product showcase page with a clean UI, built using HTML and CSS.</p>
+            <button onclick="redirectTo('https://sivabharathipc.github.io/Product-Landing-page/')">View Project</button>
+        </div>
+        <div class="project">
+            <h3>Portfolio UI</h3>
+            <p>A well-structured portfolio UI designed in Figma with a modern aesthetic.</p>
+            <button onclick="redirectTo('https://www.behance.net/gallery/218181109/Portfolio-Layout')">View Project</button>
+        </div>
+        <div class="project">
+            <h3>To-Do List App</h3>
+            <p>A simple yet functional task management application using JavaScript, HTML, and CSS.</p>
+            <button onclick="redirectTo('https://sivabharathipc.github.io/Todo-List/')">View Project</button>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Sivabharathi8787@gmail.com</p>
+        <p>behance: <a href="https://www.behance.net/sivabharathi13">Siva Bharathi</a></p>
+        <p>GitHub: <a href="https://github.com/Sivabharathipc">Sivabharathipc</a></p>
+    </section>
+</body>
+</html>
